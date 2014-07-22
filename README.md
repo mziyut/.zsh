@@ -1,0 +1,4 @@
+.zsh
+====
+
+zshrc file 
