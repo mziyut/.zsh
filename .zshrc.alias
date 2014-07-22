@@ -1,0 +1,15 @@
+###################################################################
+#     zshrc alias 
+#                                         Modified : 2014/07/23
+##################################################################
+
+alias vi="vim"
+
+alias ll="ls -lG"
+alias la="ls -la"
+
+alias g="git"
+alias gs="git status"
+alias gl="git log"
+
+alias rm="rm -i"

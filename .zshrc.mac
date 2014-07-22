@@ -1,0 +1,21 @@
+###########################################################
+#     zsh mac
+#                             Modified : 2014/07/23
+###########################################################
+
+# Macports
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export MANPATH=/opt/local/share/man:/opt/local/man:$MANPATH
+
+# XAMPP
+export PATH=/Applications/XAMPP/xamppfiles/bin:/Applications/XAMPP/bin/:$PATH
+
+# OpenGL Mac OS X (gcc)
+alias opengl="gcc -framework GLUT -framework OpenGL"
+
+# GNUplot
+alias gnuplot="/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot"
+
+# GNU Octave
+alias octave="/Applications/Octave-cli.app/Contents/MacOS/Octave "
+
