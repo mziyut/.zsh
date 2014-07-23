@@ -57,15 +57,6 @@ zsh config file
 	* ruby config file  
 	(include rbenv config)
 
-
-## Installation
-#### Download
-
-	git clone https://github.com/yutam7/.zsh.git
-	
-#### Setting
-	cd .zsh/
-	cp .zshrc.default ~/.zshrc
 	
 ## License
 Copyright &copy; 2014 Yuta Mizui  
