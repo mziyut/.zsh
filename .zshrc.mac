@@ -7,6 +7,17 @@
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:/opt/local/man:$MANPATH
 
+alias port="sudo port"
+
+alias apache_start="sudo /opt/local/apache2/bin/apachectl start"
+alias apache_stop="sudo /opt/local/apache2/bin/apachectl stop"
+alias apache_restart="sudo /opt/local/apache2/bin/apachectl restart"
+
+alias htdocs="cd /opt/local/apache2/htdocs/"
+
+alias mysql_start="sudo /opt/local/share/mysql55/mysql/mysql.server start"
+alias mysql_stop="sudo /opt/local/share/mysql55/mysql/mysql.server stop"
+
 # XAMPP
 export PATH=/Applications/XAMPP/xamppfiles/bin:/Applications/XAMPP/bin/:$PATH
 
