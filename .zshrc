@@ -9,6 +9,8 @@ export PATH=.:~/bin:/opt/local/bin:$PATH
 [ -f ~/.zsh/.zshrc.alias ] && source ~/.zsh/.zshrc.alias
 [ -f ~/.zsh/.zshrc.php ] && source ~/.zsh/.zshrc.php
 [ -f ~/.zsh/.zshrc.ruby ] && source ~/.zsh/.zshrc.ruby
+[ -f ~/.zsh/.zshrc.java ] && source ~/.zsh/.zshrc.java
+[ -f ~/.zsh/.zshrc.personal ] && source ~/.zsh/.zshrc.personal
 
 case "${OSTYPE}" in
 	darwin*)
