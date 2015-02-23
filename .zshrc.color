@@ -8,9 +8,18 @@ export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30
 export ZLS_COLORS=$LS_COLORS
 export CLICOLOR=true
 
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-
 autoload -U colors; colors
+autoload -Uz vcs_info
+
+setopt prompt_subst
+
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':vcs_info:git:*' check-for-changes true
+zstyle ':vcs_info:git:*' stagedstr "%F{yellow}!"
+zstyle ':vcs_info:git:*' unstagedstr "%F{red}+"
+zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
+zstyle ':vcs_info:*' actionformats '[%b|%a]'
+precmd () { vcs_info }
 
 tmp_prompt="%{${fg[cyan]}%}%n%# %{${reset_color}%}"
 tmp_prompt2="%{${fg[cyan]}%}%_> %{${reset_color}%}"
@@ -19,7 +28,7 @@ tmp_sprompt="%{${fg[yellow]}%}%r is correct? [Yes, No, Abort, Edit]:%{${reset_co
 
 PROMPT=$tmp_prompt
 PROMPT2=$tmp_prompt2
-RPROMPT=$tmp_rprompt
+RPROMPT='${vcs_info_msg_0_}'$tmp_rprompt
 SPROMPT=$tmp_sprompt
 
 # root
