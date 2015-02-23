@@ -11,6 +11,7 @@ export PATH=.:~/bin:/opt/local/bin:$PATH
 [ -f ~/.zsh/.zshrc.ruby ] && source ~/.zsh/.zshrc.ruby
 [ -f ~/.zsh/.zshrc.java ] && source ~/.zsh/.zshrc.java
 [ -f ~/.zsh/.zshrc.personal ] && source ~/.zsh/.zshrc.personal
+[ -f ~/.zsh/.zshrc.docker ] && source ~/.zsh/.zshrc.docker
 
 case "${OSTYPE}" in
 	darwin*)
