@@ -1,5 +1,5 @@
-# Default PATH 
-export PATH=.:~/bin:/opt/local/bin:$PATH
+# homebrew PATH
+export PATH="/usr/local/bin:$PATH"
 
 # include files
 [ -f ~/.zsh/.zshrc.option ] && source ~/.zsh/.zshrc.option
