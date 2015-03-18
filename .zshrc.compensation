@@ -4,7 +4,7 @@
 ###############################################################
 
 autoload -U compinit
-compinit
+compinit -u
 
 setopt auto_list
 setopt auto_menu
