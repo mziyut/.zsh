@@ -17,3 +17,5 @@ alias ga="git add"
 alias gp="git push"
 
 alias rm="rm -i"
+
+alias work="cd /Users/yuta/Workspace"
