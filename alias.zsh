@@ -21,4 +21,10 @@ alias gp="git push"
 # https://github.com/b4b4r07/gomi
 alias rm="gomi"
 
+##
+# thefuck
+# https://github.com/nvbn/thefuck
+alias fuck='eval $(thefuck $(fc -ln -1))'
+alias FUCK='fuck'
+
 alias work="cd /Users/yuta/Workspace"
