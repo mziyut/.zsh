@@ -16,6 +16,9 @@ alias gc="git commit -m"
 alias ga="git add"
 alias gp="git push"
 
-alias rm="rm -i"
+##
+# gomi
+# https://github.com/b4b4r07/gomi
+alias rm="gomi"
 
 alias work="cd /Users/yuta/Workspace"
