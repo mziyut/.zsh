@@ -9,6 +9,7 @@ alias laravel="~/.composer/vendor/bin/laravel"
 
 # laravel
 alias homestead="~/.composer/vendor/bin/homestead"
+alias envoy="~/.composer/vendor/bin/envoy"
 
 # phpunit
 alias phpunit="~/.composer/vendor/bin/phpunit"

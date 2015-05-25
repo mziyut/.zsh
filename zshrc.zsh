@@ -15,6 +15,7 @@ export PATH="/usr/local/bin:$PATH"
 [ -f ~/.zsh/node.zsh ] && source ~/.zsh/node.zsh
 [ -f ~/.zsh/heroku.zsh ] && source ~/.zsh/heroku.zsh
 [ -f ~/.zsh/go.zsh ] && source ~/.zsh/go.zsh
+[ -f ~/.zsh/anyenv.zsh ] && source ~/.zsh/anyenv.zsh
 
 case "${OSTYPE}" in
 	darwin*)

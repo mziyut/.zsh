@@ -4,5 +4,5 @@
 ###############################################################
 
 # rbenv path
-export PATH="$PATH:$HOME/.rbenv/bin"
-eval "$(rbenv init -)"
+#export PATH="$PATH:$HOME/.rbenv/bin"
+#eval "$(rbenv init -)"
