@@ -11,6 +11,9 @@ alias laravel="~/.composer/vendor/bin/laravel"
 alias homestead="~/.composer/vendor/bin/homestead"
 alias envoy="~/.composer/vendor/bin/envoy"
 
+# lumen
+alias lumen="~/.composer/vendor/bin/lumen"
+
 # phpunit
 alias phpunit="~/.composer/vendor/bin/phpunit"
 
