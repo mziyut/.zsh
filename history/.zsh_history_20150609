@@ -1,0 +1,1576 @@
+: 1432560993:0;brew cask update
+: 1432564922:0;work
+: 1432564936:0;cd Docker
+: 1432564944:0;cd cirkit.healthsystem
+: 1432564951:0;./cirkit_docker run
+: 1432564958:0;./cirkit_docker ssh
+: 1432565324:0;cd ../../CirKit/synced_folder/healthsystem
+: 1432565324:0;ll
+: 1432565332:0;chmod -R 777 app/tmp
+: 1432565365:0;mvim .
+: 1432565535:0;./cirkit_docker stop
+: 1432565570:0;cake server -p 8080
+: 1432565681:0;cake Migration.migrate run
+: 1432565686:0;cake
+: 1432565692:0;cake[Migrations] migration
+: 1432565703:0;cake Migrations.migration run
+: 1432565727:0;mysql -u root healthsystem < app/Config/Migration/1422526595_migration_201501291916.sql
+: 1432565731:0;cake Migrations.migration run all
+: 1432566508:0;ps
+: 1432566525:0;cake server -p 8080
+: 1432566956:0;vim .git/config
+: 1432567084:0;gs
+: 1432567086:0;git push
+: 1432567098:0;gs
+: 1432567100:0;gl
+: 1432616644:0;vim .ssh/config
+: 1432616739:0;ssh shu_corporation
+: 1432616765:0;vim .ssh/config
+: 1432616778:0;ssh shu_corporation
+: 1432616895:0;ssh SyuuKita@203.138.125.181
+: 1432617011:0;vim .ssh/config
+: 1432617084:0;ssh shu_corporation
+: 1432617102:0;chmod 0640 /Users/yuta/.ssh/cirkit_shu_corp
+: 1432617104:0;ssh shu_corporation
+: 1432617139:0;chmod 0640 /Users/yuta/.ssh/cirkit_shu_corp
+: 1432617142:0;ssh shu_corporation
+: 1432617151:0;ll .ssh
+: 1432617211:0;chmod 0600 /Users/yuta/.ssh/cirkit_shu_corp
+: 1432617214:0;ssh shu_corporation
+: 1432617609:0;vim .ssh/config
+: 1432617629:0;ssh shu_corporation
+: 1432617773:0;vim .ssh/config
+: 1432617787:0;ssh shu_corporation
+: 1432617857:0;vim .ssh/config
+: 1432617871:0;ssh shu_corporation
+: 1432618111:0;vim .ssh/config
+: 1432618174:0;ssh shu_corporation
+: 1432618436:0;cd .ssh
+: 1432618437:0;ll
+: 1432618438:0;gs
+: 1432618460:0;touch .gitignore
+: 1432618483:0;vim .gitignore
+: 1432618501:0;gs
+: 1432618522:0;git add .
+: 1432618526:0;vim .git/config
+: 1432618547:0;git commit
+: 1432618577:0;git push
+: 1432618939:0;ssh -I shu_corporation
+: 1432618954:0;ssh -i shu_corporation
+: 1432619075:0;ssh -v shu_corporation
+: 1432619418:0;ssh -vV shu_corporation
+: 1432619421:0;ssh -vv shu_corporation
+: 1432620112:0;nmap 203.138.125.181
+: 1432620118:0;brew install nmap
+: 1432620136:0;vim config
+: 1432620150:0;ssh shu_corporation
+: 1432621416:0;gs
+: 1432623465:0;rails g bower_rails:initialize json
+: 1432623551:0;l
+: 1432623553:0;ls
+: 1432623625:0;npm init
+: 1432623899:0;ll
+: 1432623952:0;npm install bower --save
+: 1432624026:0;bower install bootstrap-sass-official --save
+: 1432624033:0;source ~/.zshrc
+: 1432624035:0;bower install bootstrap-sass-official --save
+: 1432624049:0;la
+: 1432624125:0;cd
+: 1432624126:0;ll
+: 1432624128:0;la
+: 1432624196:0;rake bower:install
+: 1432624210:0;rake bower:resolve
+: 1432624516:0;bower install bootstrap
+: 1432624543:0;npm install bower --save -g
+: 1432624580:0;source ~/.zshrc
+: 1432624585:0;bower install bootstrap
+: 1432624652:0;bower install --save bootstrap-sass-official
+: 1432624667:0;ll
+: 1432624693:0;chmod o+w bower.json
+: 1432624695:0;bower install --save bootstrap-sass-official
+: 1432624808:0;gs
+: 1432624837:0;gd
+: 1432624848:0;git reset --hard HEAD
+: 1432624849:0;gs
+: 1432624859:0;git clean -xdf
+: 1432624862:0;gs
+: 1432625162:0;bundle exec rake install
+: 1432625184:0;bundle install
+: 1432626110:0;gs
+: 1432626115:0;gd
+: 1432626195:0;gs
+: 1432626204:0;git add .
+: 1432626206:0;gs
+: 1432626211:0;git commit
+: 1432626244:0;git push
+: 1432626731:0;gs
+: 1432626735:0;git add .
+: 1432626739:0;git commit
+: 1432626752:0;git push
+: 1432626928:0;git add .
+: 1432626930:0;git commit
+: 1432626945:0;git push
+: 1432637375:0;rake routes
+: 1432640266:0;redis-cli
+: 1432640865:0;rake routes
+: 1432686070:0;cd ../
+: 1432686072:0;work
+: 1432686075:0;cd Rich
+: 1432686076:0;ll
+: 1432686078:0;cd viceviza
+: 1432686080:0;vagrant up
+: 1432686090:0;vagrant status
+: 1432686097:0;cd km-viceviza.local
+: 1432686100:0;vagrant up
+: 1432686118:0;work
+: 1432686122:0;cd CirKit/healthsystem
+: 1432686123:0;gs
+: 1432686135:0;git add .
+: 1432686136:0;gs
+: 1432686140:0;git commit
+: 1432686172:0;git push
+: 1432689275:0;vagrant ststaus
+: 1432689283:0;vagrant status
+: 1432689292:0;vagrant provision
+: 1432689576:0;curl -I http://local-nail.viceviza.com/
+: 1432689605:0;curl -I http://nail.viceviza.com/
+: 1432689631:0;vagrant ssh
+: 1432689670:0;curl -I http://local-nail.viceviza.com/
+: 1432689703:0;curl -I http://local.viceviza.com/
+: 1432689722:0;vagrant ssh
+: 1432690222:0;cd ../km-www.viceviza.com
+: 1432690226:0;cd viceviza
+: 1432690227:0;ll
+: 1432690229:0;vim .
+: 1432693445:0;curl -I http://local.viceviza.com
+: 1432710765:0;bundle install
+: 1432710779:0;gs
+: 1432710780:0;gd
+: 1432710795:0;rails g task yard
+: 1432710814:0;rails g task yarddoc
+: 1432710820:0;rails g task yardoc
+: 1432710930:0;rake yardoc
+: 1432711026:0;rake yard
+: 1432711193:0;ssh distributed_system
+: 1432717696:0;brew update
+: 1432717750:0;brew upgrade
+: 1432717782:0;brew csak serach mysql
+: 1432717785:0;brew cask serach mysql
+: 1432717793:0;brew cask search mysql
+: 1432717806:0;brew cask install mysqlworkbench
+: 1432722318:0;cd ../../km-viceviza.local
+: 1432722321:0;vim .
+: 1432722432:0;gs
+: 1432722443:0;git add chef/site-cookbooks/php/files/default/php.ini
+: 1432722444:0;gs
+: 1432722446:0;git commit
+: 1432722507:0;git push
+: 1432770189:0;work
+: 1432770201:0;cd Rich/viceviza/km-viceviza.local
+: 1432770204:0;vagrant suspend
+: 1432770233:0;docker ps
+: 1432770240:0;boot2docker stop
+: 1432770503:0;gs
+: 1432770508:0;gd
+: 1432770518:0;gs
+: 1432770522:0;git add .
+: 1432770528:0;git commit
+: 1432770628:0;bundle install
+: 1432770642:0;bundle install | grep devise
+: 1432770720:0;rails g devise:install
+: 1432770799:0;rails g controller homes index
+: 1432770982:0;rails g devise user
+: 1432770990:0;rake db:migrate
+: 1432771203:0;rails g controller API::API
+: 1432776686:0;rails g devise:views
+: 1432776692:0;gs
+: 1432776703:0;tig
+: 1432776778:0;gs
+: 1432776781:0;git commit
+: 1432776825:0;gs
+: 1432776878:0;rails g devise admin
+: 1432777008:0;rails destroy devise admin
+: 1432777082:0;gs
+: 1432782035:0;rake db:migrate
+: 1432787920:0;gs
+: 1432787929:0;git commit
+: 1432787960:0;gs
+: 1432787967:0;gd
+: 1432788094:0;vim ../../CirKit/healthsystem/config/database.yml
+: 1432788201:0;ll
+: 1432788429:0;open ../../CirKit/healthsystem/config/database.yml
+: 1432788583:0;rake db:migrate
+: 1432788594:0;rake db:setup
+: 1432788798:0;rm db/schema.rb
+: 1432788809:0;reke db:drop
+: 1432788813:0;rake db:drop
+: 1432788821:0;rake dm:migrate
+: 1432788830:0;rake db:migrate
+: 1432788839:0;rake db:init
+: 1432788884:0;bundle install
+: 1432788946:0;mysql 0u root
+: 1432788949:0;mysql -u root
+: 1432789009:0;rake db:migrate
+: 1432789095:0;gs
+: 1432789106:0;git add .
+: 1432789108:0;gs
+: 1432789129:0;git commit
+: 1432789156:0;gs
+: 1432789159:0;git push
+: 1432789815:0;gs
+: 1432789817:0;git add .
+: 1432789820:0;git commit
+: 1432789837:0;git push
+: 1432789998:0;ruby -v
+: 1432790474:0;git commit wercker.yml
+: 1432790492:0;git push
+: 1432790968:0;bundle install
+: 1432790983:0;gs
+: 1432790984:0;gd
+: 1432790993:0;git add .
+: 1432790995:0;git commit
+: 1432791009:0;git push
+: 1432791757:0;gem install capistrano-rails
+: 1432791775:0;gem install capistrano
+: 1432791792:0;gem install capistrano-rbenv
+: 1432791901:0;cap install
+: 1432792126:0;ssh mziyut.com
+: 1432792132:0;ssh distributed_system
+: 1432793498:0;gs
+: 1432793503:0;vim .git/config
+: 1432793841:0;ssh distributed_system
+: 1432795391:0;vim ~/.ssh/config
+: 1432797783:0;gs
+: 1432797891:0;git gs
+: 1432797893:0;gs
+: 1432797896:0;git add .
+: 1432797905:0;git commit
+: 1432797918:0;git push
+: 1432798219:0;bundle exec cap deploy
+: 1432798445:0;bundle install
+: 1432798469:0;bundle exec cap deploy
+: 1432798537:0;bundle exec cap production deploy
+: 1432798594:0;bundle exec cap deploy
+: 1432798603:0;bundle exec cap production deploy
+: 1432799008:0;bundle install
+: 1432799051:0;bundle update
+: 1432799099:0;bundle exec cap production deploy
+: 1432799293:0;vim ~/.ssh/config
+: 1432799325:0;bundle exec cap production deploy
+: 1432799430:0;ssh distributed_system
+: 1432799558:0;bundle exec cap production deploy
+: 1432801348:0;ssh distributed_system
+: 1432802731:0;bundle exec cap production deploy
+: 1432803241:0;gs
+: 1432803243:0;gd
+: 1432803271:0;git add .
+: 1432803275:0;git commit
+: 1432803287:0;git push
+: 1432803689:0;bundle exec cap production deploy
+: 1432804398:0;ssh com.mziyut
+: 1432804584:0;ping www.mziyut.com
+: 1432804596:0;ping mziyut.com
+: 1432805108:0;ssh distributed_system
+: 1432806506:0;ssh com.mziyut
+: 1432807402:0;bundle exec cap production deploy
+: 1432808863:0;ll .ssh
+: 1432809024:0;ll
+: 1432809029:0;cd Workspace/
+: 1432809029:0;ll
+: 1432809032:0;cd sw
+: 1432809034:0;cd sql
+: 1432809034:0;ll
+: 1432809036:0;gs
+: 1432809037:0;gl
+: 1432809046:0;git commit --amend
+: 1432809053:0;gs
+: 1432809054:0;gl
+: 1432809065:0;vim .git/config
+: 1432809079:0;git push
+: 1432809081:0;fuck
+: 1432809211:0;git pull
+: 1432809220:0;gs
+: 1432809223:0;ll
+: 1432809236:0;mysql 0u root
+: 1432809240:0;mysql -u root
+: 1432809286:0;mysqldump -uroot healthsystem > healthsystem.sql
+: 1432809294:0;mysqldump -uroot healthsystem_1 > healthsystem_1.sql
+: 1432809311:0;gs
+: 1432809313:0;git add .
+: 1432809317:0;git commit
+: 1432809333:0;git ouhs
+: 1432809336:0;fuck
+: 1432809344:0;gs
+: 1432809416:0;exit
+: 1432809518:0;ll
+: 1432809520:0;ga
+: 1432809522:0;gs
+: 1432809525:0;gl
+: 1432809529:0;git pull
+: 1432815112:0;redis-cli
+: 1432879819:0;gs
+: 1432879892:0;vim .git/config
+: 1432880011:0;git puah
+: 1432880015:0;git push
+: 1432883691:0;git commit -m updateGamfile Gemfile
+: 1432883698:0;git push
+: 1432885084:0;docker ps
+: 1432885090:0;docker images
+: 1432885130:0;docker rm 57007d16b8c2
+: 1432885210:0;docker docker rmi $(docker images | awk '/^<none>/ { print $3 }')
+: 1432885212:0;docker rmi $(docker images | awk '/^<none>/ { print $3 }')
+: 1432885220:0;docker images
+: 1432885229:0;docker rmi -f $(docker images | awk '/^<none>/ { print $3 }')
+: 1432885243:0;docker images
+: 1432885246:0;docker images -a
+: 1432885263:0;docker rmi -f $(docker images -a | awk '/^<none>/ { print $3 }')
+: 1432885286:0;docker images -a
+: 1432885296:0;docker images
+: 1432885379:0;brew cleanup -s
+: 1432885468:0;brew cask cleanup
+: 1432885501:0;brew cask cleanup -s
+: 1432891586:0;ssh com.mziyut
+: 1432892957:0;ping mziyut.com
+: 1432893043:0;ping 169.254.224.187
+: 1432893048:0;ping 169.254.224.255
+: 1432893056:0;ping 169.254.255.255
+: 1432893072:0;ping 169.255.255.255
+: 1432893076:0;ping 169.254.255.255
+: 1432893098:0;ll
+: 1432902013:0;ioreg -lw0 | grep IODisplayEDID | sed "/[^<]*</s///" | xxd -p -r | strings -6
+: 1432902436:0;vim
+: 1432908305:0;work
+: 1432908306:0;ll
+: 1432908309:0;cd Lab
+: 1432908310:0;ll
+: 1432908334:0;mkdir DistributedComputingServer.local
+: 1432908339:0;cd DistributedComputingServer.local
+: 1432908339:0;ll
+: 1432908349:0;vagrant init
+: 1432908359:0;ll
+: 1432908362:0;vim Vagrantfile
+: 1432908385:0;cd ../../Rich/viceviza/km-viceviza.local
+: 1432908386:0;ll
+: 1432908390:0;vim Vagrantfile
+: 1432908521:0;vim ../../../CirKit/vagrant-rails/Vagrantfile
+: 1432908722:0;ll
+: 1432908724:0;cd ../
+: 1432908724:0;ll
+: 1432908736:0;mv DistributedComputingServer Server
+: 1432908738:0;ll
+: 1432908824:0;cd ..
+: 1432908825:0;ll
+: 1432908834:0;mv DistributedComputingServer.local Server.local
+: 1432908834:0;ll
+: 1432909352:0;brew update
+: 1432910242:0;brew upgrade
+: 1432910341:0;vim Server.local/Vagrantfile
+: 1432910522:0;cd Server.local
+: 1432910523:0;ll
+: 1432910526:0;vagrant up
+: 1432910548:0;vim Vagrantfile
+: 1432910568:0;vagrant up
+: 1432911652:0;vagrant status
+: 1432911899:0;vim Vagrantfile
+: 1432912038:0;gem install chef
+: 1432912093:0;gem install knife-solo
+: 1432912119:0;gem install berkshelf
+: 1432912159:0;vim Gemfile
+: 1432912242:0;ll
+: 1432912271:0;bundle install --path vendor/bundler
+: 1432912758:0;knife configure
+: 1432912879:0;mv ../../Rich/viceviza/km-viceviza.local/chef/ .
+: 1432912880:0;ll
+: 1432912892:0;vim .
+: 1432922084:0;ll
+: 1432922098:0;cd Server.local
+: 1432922099:0;ll
+: 1432922105:0;cd chef
+: 1432922105:0;ll
+: 1432922108:0;cd site-cookbooks
+: 1432922108:0;ll
+: 1432922113:0;rm -rf *
+: 1432922117:0;rm -rf ./*
+: 1432922118:0;ll
+: 1432922142:0;/bin/rm -rf ./*
+: 1432922143:0;ll
+: 1432922154:0;cd ..
+: 1432922155:0;ll
+: 1432922161:0;knife cookbook create base -o site-cookbooks/
+: 1432922247:0;vim ../../../CirKit/vagrant-rails/Vagrantfile
+: 1432922261:0;gs
+: 1432922264:0;git pull
+: 1432922278:0;git reset -hard HEAD
+: 1432922283:0;git reset --hard HEAD
+: 1432922288:0;ll
+: 1432922289:0;gs
+: 1432922980:0;vagrant destroy
+: 1432922998:0;vagrant up
+: 1432923269:0;vagrant provision
+: 1432923618:0;vagrant destroy
+: 1432923630:0;vagrant up
+: 1432923721:0;vagrant ssh
+: 1432923879:0;vagrant destroy
+: 1432923891:0;vagrant up
+: 1432924012:0;vagrant destroy
+: 1432924020:0;vagrant up
+: 1432924324:0;vagrant destroy
+: 1432924332:0;vagrant up
+: 1432924453:0;vagrant destroy
+: 1432924458:0;vagrant up
+: 1432924511:0;vagrant destroy
+: 1432924518:0;vagrant up
+: 1432924685:0;vagrant ssh
+: 1432925246:0;ssh distributed_system
+: 1432925308:0;vagrant destroy
+: 1432925773:0;vagrant im
+: 1432925782:0;vagrant box list
+: 1432925792:0;vagrant box delete distributed_computing_server
+: 1432925800:0;vagrant box remove distributed_computing_server
+: 1432925808:0;vagrant destroy
+: 1432925819:0;vagrant up
+: 1432926017:0;vagrant box remove distributed_computing_server
+: 1432926039:0;vagrant destroy
+: 1432926048:0;vagrant up
+: 1432926979:0;ll
+: 1432926983:0;cd chef/site-cookbooks
+: 1432926983:0;ll
+: 1432927018:0;cd ../
+: 1432927020:0;cd
+: 1432927065:0;ll
+: 1432927072:0;cd ../../../
+: 1432927072:0;ll
+: 1432927078:0;cd CirKit/vagrant-rails
+: 1432927078:0;ll
+: 1432927088:0;cd chef-repo
+: 1432927089:0;ll
+: 1432927094:0;vim .
+: 1432927392:0;~/Workspace/Lab/Server.local/chef
+: 1432927403:0;knife cookbook create nginx -o site-cookbooks/
+: 1432927831:0;cd ..
+: 1432927847:0;vagrant provision
+: 1432927905:0;touch chef/site-cookbooks/nginx/templates/default/nginx.conf.erb
+: 1432928028:0;vagrant provision
+: 1432928125:0;vagrant ssh
+: 1432928350:0;vagrant provision
+: 1432928731:0;vagrant ssh
+: 1432928963:0;ping 192.168.33.10
+: 1432929249:0;sudo vim /etc/hosts
+: 1432929487:0;ping 192.168.33.10
+: 1432955337:0;ssh com.mziyut
+: 1432956067:0;ssh ogita@mziyut.com
+: 1432959864:0;ifconfig
+: 1432971924:0;gs
+: 1432972512:0;redis-cli
+: 1432982145:0;history
+: 1432982157:0;vim ~/.zsh_history
+: 1432982250:0;bundle exec cap
+: 1432982261:0;bundle exec cap production deploy
+: 1432982347:0;ssh docker
+: 1432982351:0;ssh distributed_system
+: 1432982447:0;bundle exec cap production deploy
+: 1432982506:0;gs
+: 1432982570:0;ll
+: 1432982576:0;ssh distributed_system
+: 1432982644:0;bundle exec cap production deploy
+: 1432982669:0;ssh distributed_system
+: 1432982784:0;bundle exec cap production deploy
+: 1432982802:0;ssh distributed_system
+: 1432982855:0;bundle exec cap production deploy
+: 1432982981:0;ll
+: 1432982982:0;cd ../
+: 1432982983:0;ll
+: 1432982988:0;cd ../KIT-Hackers/i
+: 1432982990:0;cd ../KIT-Hackers/
+: 1432982990:0;ll
+: 1432982992:0;cd animenoyatsu-api
+: 1432982992:0;ll
+: 1432982995:0;vim Envoy.blade.php
+: 1432983223:0;rake tmp:c
+: 1432998710:0;gs
+: 1433093558:0;cd ../../
+: 1433093562:0;cd Study
+: 1433093562:0;ll
+: 1433093604:0;mkdir Node.js
+: 1433093606:0;cd Node.js
+: 1433093626:0;npm install express-generator -g
+: 1433093645:0;express -e chatsample
+: 1433093653:0;source ~/.zshrc
+: 1433093656:0;express -e chatsample
+: 1433093658:0;ll
+: 1433093665:0;cd chatsample
+: 1433093668:0;npm install
+: 1433093681:0;ll
+: 1433093685:0;git init
+: 1433093688:0;git add .
+: 1433093694:0;git commit -m init
+: 1433093696:0;gs
+: 1433093703:0;npm install socket.io --save
+: 1433093800:0;ll
+: 1433093804:0;vim io.js
+: 1433094234:0;npm start
+: 1433094325:0;vim io.js
+: 1433094718:0;npm start
+: 1433094745:0;vim io.js
+: 1433094842:0;npm start
+: 1433094942:0;ll
+: 1433094943:0;gs
+: 1433094974:0;touch .gitignore
+: 1433094977:0;vim .gitignore
+: 1433094988:0;gs
+: 1433094993:0;git add .
+: 1433094994:0;gs
+: 1433095003:0;git commit -m sampleapp
+: 1433095004:0;gs
+: 1433095058:0;git remote add origin git@bitbucket.private:mziyut/node.js-chatsample.git
+: 1433095060:0;git push
+: 1433095064:0;fuck
+: 1433095177:0;vim .git/config
+: 1433095191:0;git pull
+: 1433095196:0;gs
+: 1433095267:0;git remote add github git@github.com:mziyut/chatsample.git
+: 1433095273:0;git push github master
+: 1433095421:0;cd
+: 1433095422:0;ll
+: 1433095425:0;cd .backup
+: 1433095425:0;ll
+: 1433095431:0;gs
+: 1433095443:0;mkdir brew
+: 1433095445:0;ll
+: 1433095451:0;brew update
+: 1433095523:0;brew upgrade
+: 1433095529:0;brew upgrade -a
+: 1433095533:0;brew upgrade --all
+: 1433095536:0;gs
+: 1433095546:0;brew installed
+: 1433095551:0;brew list
+: 1433095560:0;brew list -h
+: 1433095620:0;brew tap
+: 1433095652:0;brew tap > brew/tap-20150601.txt
+: 1433095660:0;brew list > brew/list-20150601.txt
+: 1433095684:0;brew list -v
+: 1433095688:0;brew -v list
+: 1433095703:0;brew cleanup
+: 1433095719:0;ll
+: 1433095728:0;brew cask update
+: 1433095754:0;brew cask list
+: 1433095770:0;mkdir brew.cask
+: 1433095785:0;brew cask list > brew.cask/list-20150601.txt
+: 1433095788:0;gs
+: 1433095791:0;git add .
+: 1433095797:0;gs
+: 1433095817:0;cp dash/snippets.dash dash/20150601.dash
+: 1433095820:0;ll
+: 1433095821:0;gs
+: 1433095823:0;git add
+: 1433095825:0;git add.
+: 1433095826:0;git add .
+: 1433095827:0;gs
+: 1433095837:0;git commit -m 20150601
+: 1433095840:0;git push
+: 1433095852:0;ll
+: 1433095860:0;mkdir npm
+: 1433095861:0;ll
+: 1433095866:0;npm list
+: 1433095870:0;npm
+: 1433095880:0;npm update
+: 1433095885:0;npm upgrade
+: 1433095977:0;npm ls -g
+: 1433095991:0;npm list -g
+: 1433096048:0;npm list -g > npm/list-20150601.txt
+: 1433096075:0;gem list
+: 1433096083:0;mkdir gem
+: 1433096098:0;gem list > gem/list-20150601.txt
+: 1433096102:0;gs
+: 1433096106:0;git add .
+: 1433096112:0;git commit -m 20150601
+: 1433096114:0;git puah
+: 1433096117:0;git push
+: 1433096237:0;gem update
+: 1433113173:0;gs
+: 1433113178:0;git add .
+: 1433113182:0;gs
+: 1433113187:0;git commit
+: 1433113209:0;git push
+: 1433118196:0;brew cask list
+: 1433118215:0;brew cask uninstall visual-studio-code
+: 1433118225:0;brew cask uninstall box-sync
+: 1433118236:0;brew cask uninstall google-chrome
+: 1433118263:0;brew cask
+: 1433118268:0;brew cask cleanup
+: 1433118278:0;for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || { brew cask uninstall $c && brew cask install $c; }; done
+: 1433122196:0;brew cask install google-chrome
+: 1433126022:0;work
+: 1433126033:0;cd Rich/viceviza/km-www.viceviza.com
+: 1433126038:0;ll
+: 1433126040:0;gs
+: 1433126059:0;cd ../km-viceviza.local
+: 1433126060:0;ll
+: 1433126061:0;gs
+: 1433126066:0;rm diff.txt
+: 1433126067:0;ll
+: 1433126068:0;gs
+: 1433126078:0;git checkout master
+: 1433126080:0;git pull
+: 1433126096:0;vagrant up --provision
+: 1433126106:0;cd ../km-www.viceviza.com
+: 1433126113:0;git reset --hard HEAD
+: 1433126119:0;git pull
+: 1433126140:0;gs
+: 1433126146:0;git clean -xdf
+: 1433126148:0;gs
+: 1433126157:0;vagrant up --provision
+: 1433126176:0;vagrant status
+: 1433126189:0;vim Vagrantfile
+: 1433126251:0;cd ../../../Lab/Server.local
+: 1433126252:0;ll
+: 1433126255:0;vagrant status
+: 1433126263:0;vagrant down
+: 1433126269:0;vagrant stop
+: 1433126276:0;vagrant halt
+: 1433126307:0;vagrant up --provision
+: 1433126347:0;vagrant halt --provision
+: 1433126353:0;vagrant halt
+: 1433126377:0;vagrant up --provision
+: 1433126484:0;git pull
+: 1433126524:0;gs
+: 1433126529:0;vagrant up --provision
+: 1433126549:0;vagrant down
+: 1433126559:0;vagrant halt
+: 1433126617:0;tree .vagrant
+: 1433126664:0;rm .vagrant/machines/default/virtualbox/synced_folders
+: 1433126679:0;vagrant up --provision
+: 1433127387:0;git fetch && git checkout topic/KAMIMADO-2635
+: 1433127397:0;git pull
+: 1433127410:0;vim .
+: 1433127551:0;vagrant ssh
+: 1433128538:0;cd viceviza
+: 1433128554:0;find . "ÁÉØæÂÉº®„ÅÆ„É£ÉΩ„Ç§„É£≥„É£É®"
+: 1433128599:0;find ./ -type f -print | xargs grep 'ÁÉØæÂÉº®„ÅÆ„É£ÉΩ„Ç§„É£≥„É£É®'
+: 1433128742:0;vim web/inc_app/mypage_header.php
+: 1433140197:0;gs
+: 1433140216:0;git diff viceviza/web/inc_app/mypage_header.php viceviza/web/css_app/mypage_top.css
+: 1433140526:0;git add viceviza/web/inc_app/mypage_header.php viceviza/web/css_app/mypage_top.css
+: 1433140529:0;gs
+: 1433140545:0;git commit
+: 1433140842:0;gd
+: 1433142569:0;gs
+: 1433142581:0;git diff viceviza/web/css_app/mypage_regist.css
+: 1433142597:0;git add viceviza/web/css_app/mypage_regist.css
+: 1433142601:0;git commit
+: 1433142677:0;git push
+: 1433146195:0;find ./ -type f -print | xargs grep 'ÁÉ©πÈÉªÉ¶‰∏ÄË¶ß„ÇÉ≤Ë¶É´„ÇÉ´'
+: 1433146363:0;find ./ -type f -print | xargs grep '<p class="commonLink01"><a href="http://stg-kamimado.viceviza.com/contents_feature/list/">ÁÉ©πÈÉªÉ¶‰∏ÄË¶ß„ÇÉ≤Ë¶É´„ÇÉ´</a></p>'
+: 1433146794:0;find ./ -type f -print | xargs grep 'pc/inc/common/feature_list.html'
+: 1433146973:0;find ./ -print | xargs grep 'pc/inc/common/feature_list.html'
+: 1433147401:0;gs
+: 1433147413:0;gd viceviza/web/pc/inc/common/feature_list.html
+: 1433147419:0;git add viceviza/web/pc/inc/common/feature_list.html
+: 1433147445:0;git commit
+: 1433147471:0;git push
+: 1433152877:0;git checkout master
+: 1433152881:0;gs
+: 1433155564:0;git fetch && git checkout topic/KAMIMADO-2637
+: 1433155581:0;gs
+: 1433158304:0;find ./ -type f -print | xargs grep 'NLC00030.html'
+: 1433158647:0;gs
+: 1433158665:0;gd viceviza/web/sp/css/common.css nailnnail/apps/nailnnail/modules/sfeatureCtl/templates/iph_indexSuccess.php
+: 1433159357:0;php symfony project:cc
+: 1433159362:0;cd nailnnail
+: 1433159364:0;php symfony project:cc
+: 1433159376:0;vagrant ssh
+: 1433159858:0;gs
+: 1433159874:0;git reset --hard HEAD ../viceviza/web/sp/css/common.css
+: 1433159880:0;cd ../
+: 1433159880:0;ll
+: 1433159887:0;git reset --hard HEAD viceviza/web/sp/css/common.css
+: 1433159896:0;git reset --hard viceviza/web/sp/css/common.css
+: 1433159945:0;git reset HEAD viceviza/web/sp/css/common.css
+: 1433159951:0;gs
+: 1433160071:0;gd viceviza/web/sp/css/common.css nailnnail/apps/nailnnail/modules/sfeatureCtl/templates/iph_indexSuccess.php
+: 1433161244:0;vim web/sp/css/common.css
+: 1433162135:0;:q
+: 1433162262:0;vim web/sp/css/common.css
+: 1433162613:0;gd viceviza/web/sp/css/common.css nailnnail/apps/nailnnail/modules/sfeatureCtl/templates/iph_indexSuccess.php
+: 1433162737:0;ga viceviza/web/sp/css/common.css nailnnail/apps/nailnnail/modules/sfeatureCtl/templates/iph_indexSuccess.php
+: 1433162739:0;gs
+: 1433162758:0;git commit
+: 1433162873:0;git push
+: 1433162905:0;vim .
+: 1433163226:0;gs
+: 1433163228:0;git fetch && git checkout topic/2
+: 1433163234:0;ls
+: 1433163235:0;ll
+: 1433163241:0;touch .gitignore
+: 1433163249:0;vim .gitignore
+: 1433163261:0;ll
+: 1433163262:0;la
+: 1433163282:0;vim .gitignore
+: 1433163294:0;gs
+: 1433163298:0;git add .
+: 1433163300:0;git commit
+: 1433163357:0;gs
+: 1433163363:0;git push
+: 1433222665:0;rake tap
+: 1433222726:0;bundle exec cap production deploy
+: 1433222758:0;gs
+: 1433222763:0;vim .git/config
+: 1433222801:0;bundle exec cap production deploy
+: 1433223093:0;gs
+: 1433223094:0;gd
+: 1433223107:0;git add .
+: 1433223110:0;git commit
+: 1433223118:0;git push
+: 1433223126:0;bundle exec cap production deploy
+: 1433223324:0;ssh distributed_system
+: 1433223352:0;bundle exec cap production deploy
+: 1433223417:0;ssh distributed_system
+: 1433223637:0;bundle exec cap production deploy
+: 1433223759:0;git checkout master
+: 1433223763:0;gs
+: 1433223766:0;gd
+: 1433223772:0;git commit config/deploy.rb
+: 1433223788:0;gp
+: 1433223801:0;git checkout master
+: 1433223805:0;git push
+: 1433223816:0;bundle exec cap production deploy
+: 1433223824:0;gs
+: 1433223831:0;git checkout develop
+: 1433223834:0;gd
+: 1433223842:0;git reset --hard HEAD
+: 1433223854:0;git checkout develop
+: 1433223863:0;git reset --hard HEAD
+: 1433223866:0;git checkout develop
+: 1433223870:0;bundle exec cap production deploy
+: 1433224027:0;git checkout master
+: 1433224059:0;git checkout develop
+: 1433224062:0;gs
+: 1433224067:0;git reset --hrad HEAD
+: 1433224072:0;git reset --hard HEAD
+: 1433224074:0;git checkout develop
+: 1433224080:0;bundle exec cap production deploy
+: 1433224273:0;ssh distributed_system
+: 1433224300:0;bundle exec cap production deploy
+: 1433224501:0;ssh distributed_system
+: 1433224591:0;bundle exec cap production deploy
+: 1433224659:0;ssh distributed_system
+: 1433224852:0;gs
+: 1433224854:0;gd
+: 1433224862:0;git add .
+: 1433224864:0;git commit
+: 1433224885:0;gp
+: 1433224893:0;bundle exec cap production deploy
+: 1433224992:0;gs
+: 1433224994:0;git add .
+: 1433224996:0;git commit
+: 1433225007:0;git push
+: 1433225015:0;bundle exec cap production deploy
+: 1433225068:0;ssh distributed_system
+: 1433225086:0;bundle exec cap production deploy
+: 1433225137:0;ll
+: 1433225148:0;vim .git/config
+: 1433225184:0;ssh distributed_system
+: 1433225203:0;vim .git/config
+: 1433225207:0;bundle exec cap production deploy
+: 1433225899:0;ssh distributed_system
+: 1433225946:0;vim .git/config
+: 1433225966:0;git push
+: 1433225978:0;bundle exec cap production deploy
+: 1433226522:0;gs
+: 1433226525:0;gd
+: 1433226539:0;git add .
+: 1433226541:0;git commit
+: 1433226551:0;git push
+: 1433226564:0;bundle exec cap production deploy
+: 1433232295:0;gs
+: 1433232298:0;git add .
+: 1433232302:0;git commit
+: 1433232321:0;git push
+: 1433232559:0;ssh distributed_system
+: 1433232708:0;ll
+: 1433232712:0;cd
+: 1433232715:0;cd .ssh
+: 1433232715:0;ll
+: 1433232718:0;vim distributed_system_aws.pem
+: 1433232731:0;less distributed_system_aws.pem
+: 1433233241:0;git add .
+: 1433233243:0;git commit
+: 1433233259:0;git pish
+: 1433233261:0;fuck
+: 1433233656:0;gs
+: 1433233658:0;gd
+: 1433233664:0;git add .
+: 1433233666:0;git commit
+: 1433233677:0;git push
+: 1433235224:0;gs
+: 1433235228:0;git add .
+: 1433235240:0;git commit -m fix wercker.yml
+: 1433235242:0;gs
+: 1433235244:0;git push
+: 1433235738:0;ssh distributed_system
+: 1433236208:0;ll
+: 1433236214:0;bundle install
+: 1433237611:0;gs
+: 1433237614:0;git add .
+: 1433237618:0;git commit
+: 1433237633:0;git push
+: 1433238071:0;ll
+: 1433238112:0;bundle exec unicorn
+: 1433238197:0;gs
+: 1433238201:0;git add .
+: 1433238203:0;git commit
+: 1433238211:0;git push
+: 1433297579:0;work
+: 1433297580:0;rich
+: 1433297581:0;ll
+: 1433297586:0;cd ../
+: 1433297586:0;ll
+: 1433297591:0;Rich
+: 1433297592:0;ll
+: 1433297594:0;pwd
+: 1433297597:0;cd viceviza
+: 1433297600:0;cd km-l
+: 1433297602:0;cd km-viceviza.local
+: 1433297603:0;ll
+: 1433297607:0;vagrant status
+: 1433302123:0;git checkout master
+: 1433302126:0;git pull
+: 1433302943:0;cd ../km-www.viceviza.com
+: 1433302950:0;brew cask install opera
+: 1433305527:0;brew cask install firefox
+: 1433306453:0;brew cask serach firefox
+: 1433306460:0;brew cask search firefox
+: 1433306480:0;brew cask cleanup
+: 1433306497:0;brew cleanup
+: 1433306517:0;brew update
+: 1433306659:0;brew upgrade
+: 1433306890:0;launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+: 1433306986:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+: 1433309050:0;ll
+: 1433309055:0;cd viceviza
+: 1433309056:0;ll
+: 1433309058:0;vim .
+: 1433311730:0;find ./ -type f -print | xargs grep 'rss'
+: 1433312448:0;ll
+: 1433312474:0;vim viceviza/apps/viceviza/config/routing.yml
+: 1433319574:0;gs
+: 1433319607:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433319630:0;vim .
+: 1433321447:0;vagrant ssh
+: 1433321577:0;vim common/lib/task/dailyArticlerssTask.class.php
+: 1433327505:0;git fetch && git checkout topic/KAMIMADO-2644
+: 1433327520:0;gs
+: 1433327535:0;git add common/lib/task/dailyArticlerssTask.class.php
+: 1433327537:0;gs
+: 1433327593:0;git commit
+: 1433327674:0;git push
+: 1433327719:0;git add common/lib/task/dailyArticlerssTask.class.php
+: 1433327724:0;vim common/lib/task/dailyArticlerssTask.class.php
+: 1433327833:0;gs
+: 1433327869:0;git add common/lib/task/dailyArticlerssTask.class.php
+: 1433327875:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433327885:0;gs
+: 1433327895:0;tig
+: 1433327915:0;git commit
+: 1433327985:0;git push
+: 1433332164:0;ll
+: 1433332177:0;cd salon
+: 1433332177:0;ll
+: 1433332225:0;ll data
+: 1433332233:0;cd ../
+: 1433332233:0;ll
+: 1433332237:0;cd viceviza
+: 1433332237:0;ll
+: 1433332246:0;ll config/schema.yml
+: 1433332250:0;vim config/schema.yml
+: 1433333477:0;ll
+: 1433333484:0;cd ..
+: 1433333484:0;ll
+: 1433333492:0;cd common
+: 1433333492:0;ll
+: 1433333497:0;vim config/schema.yml
+: 1433334100:0;gs
+: 1433334736:0;gd ../common/lib/model/map/AccessLogMapBuilder.php
+: 1433334779:0;gd ../common/lib/model/AccessRankArea.php
+: 1433334797:0;gd
+: 1433334813:0;gd ../common/lib/model/om/BaseMemberSns.php
+: 1433335041:0;ll
+: 1433335045:0;ll ../salon
+: 1433335085:0;ll config
+: 1433335102:0;less config/schema.yml
+: 1433335106:0;cd ../
+: 1433335107:0;ll
+: 1433335108:0;cd common
+: 1433335109:0;ll
+: 1433335112:0;cd ../
+: 1433335113:0;l
+: 1433335114:0;ll
+: 1433335136:0;vim chef/site-cookbooks/symfony
+: 1433335234:0;ll adnet
+: 1433335239:0;vim chef/site-cookbooks/
+: 1433335269:0;ll viceviza/
+: 1433335272:0;ll kamimado
+: 1433335279:0;ll nailnnail
+: 1433335285:0;ll relapark
+: 1433335296:0;ll api
+: 1433335300:0;ll salon
+: 1433335308:0;ll sys
+: 1433335311:0;ll agent
+: 1433335319:0;ll batch
+: 1433335865:0;vim common/lib/model/om/BaseSalonPeer.php
+: 1433335884:0;gd common/lib/model/om/BaseSalonPeer.php
+: 1433337663:0;cd viceviza
+: 1433338113:0;cd ../common
+: 1433338114:0;ll
+: 1433338121:0;./bin/SymfonyBuildModels.sh
+: 1433338237:0;gs
+: 1433338265:0;vim config/schema.yml
+: 1433338285:0;gs | grep test
+: 1433338292:0;gs | grep test_table
+: 1433338296:0;gs | grep testTable
+: 1433338507:0;gs
+: 1433338511:0;gs | grep testTable
+: 1433338513:0;gs | grep test
+: 1433338688:0;gs | grep Hoge
+: 1433338705:0;less lib/model/TestTableHogeHoge.php
+: 1433341256:0;ll
+: 1433341284:0;vim lib/task/dailyArticlerssTask.class.php
+: 1433341468:0;GS
+: 1433341478:0;gs
+: 1433341495:0;git add lib/task/dailyArticlerssTask.class.php
+: 1433341497:0;gs
+: 1433341505:0;git commit
+: 1433341561:0;git push
+: 1433344100:0;vagrant halt
+: 1433382111:0;ll
+: 1433382121:0;cd ../../../Lab
+: 1433382121:0;ll
+: 1433382125:0;cd Server.local
+: 1433382126:0;ll
+: 1433382133:0;cd ../
+: 1433382133:0;ll
+: 1433382145:0;mv Server.local Server.local.old
+: 1433382147:0;ll
+: 1433382162:0;cp -r Server.local.old Server.local
+: 1433382183:0;ll
+: 1433382186:0;cd Server
+: 1433382190:0;cd ../Server.local
+: 1433382191:0;ll
+: 1433382213:0;cp -r ../Server.local.old/* .
+: 1433382271:0;ll
+: 1433382275:0;vim Vagrantfile
+: 1433382313:0;vagrant destroy
+: 1433382330:0;vagrant up
+: 1433394806:0;vagrant destroy
+: 1433395084:0;redis-cli
+: 1433400203:0;rails c
+: 1433401336:0;a
+: 1433401344:0;-
+: 1433401350:0;s-psa
+: 1433401391:0;s
+: 1433401395:0;p -
+: 1433401398:0;s -a
+: 1433408108:0;composer global update
+: 1433408167:0;vagrant update
+: 1433408196:0;boot2docker
+: 1433408204:0;boot2docker upgrade
+: 1433408662:0;brew cask update
+: 1433412749:0;redis-cli KEYS "hoge:*" | xargs redis-cli DEL
+: 1433412757:0;redis-cli
+: 1433412839:0;redis-server
+: 1433412850:0;ps
+: 1433412856:0;redis-cli
+: 1433412903:0;ps ax | grep redis-server
+: 1433412916:0;kill -9 68015
+: 1433412925:0;ps -a
+: 1433412931:0;ps -A
+: 1433412949:0;ps -A | grep redis
+: 1433412954:0;kill -9 v
+: 1433412956:0;kill -9 68059
+: 1433412959:0;sudo kill -9 68059
+: 1433412986:0;redis.service stop
+: 1433413008:0;launchy redis.service stop
+: 1433413035:0;sudo launchctl stop io.redis.redis-server
+: 1433413039:0;sudo launchctl start io.redis.redis-server
+: 1433413045:0;redis-cli
+: 1433413107:0;brew remove redis
+: 1433413113:0;brew install redis
+: 1433413124:0;redis-cli
+: 1433413144:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+: 1433413152:0;launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+: 1433413154:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+: 1433413157:0;redis-cli
+: 1433483250:0;ll
+: 1433483252:0;ssh distributed_system
+: 1433499498:0;composer global require "laravel/lumen-installer=~1.0"
+: 1433499562:0;ll
+: 1433499563:0;cd ../
+: 1433499564:0;ll
+: 1433499596:0;laravel new hoge
+: 1433499631:0;ll
+: 1433499647:0;/bin/rm -rf hoge
+: 1433499649:0;ll
+: 1433499787:0;vim ~/.zsh/php.zsh
+: 1433499829:0;cd ~/.zsh
+: 1433499829:0;ll
+: 1433499831:0;gs
+: 1433499834:0;git add .
+: 1433499842:0;git commit -m 20150605
+: 1433499844:0;git push
+: 1433500501:0;ssh distributed_system
+: 1433500629:0;vim ~/.ssh/config
+: 1433500649:0;ssh distributed_system
+: 1433514655:0;work
+: 1433514663:0;cd CirKit/synced_folder/healthsystem
+: 1433514674:0;ll
+: 1433514680:0;mvim .
+: 1433519907:0;rails g Model meal_profiles
+: 1433519917:0;rails g model meal_profiles
+: 1433520025:0;rake db:migrate
+: 1433526818:0;rake routes
+: 1433568223:0;redis-cli
+: 1433572852:0;gs
+: 1433572863:0;less dump.rdb
+: 1433578778:0;rake routes
+: 1433589391:0;gs
+: 1433589395:0;git add .
+: 1433589397:0;gs
+: 1433589402:0;git commit
+: 1433589429:0;git push
+: 1433589663:0;gs
+: 1433589665:0;ga .
+: 1433589667:0;git commit
+: 1433589690:0;git push
+: 1433590250:0;git fetch
+: 1433590326:0;git merge origin/feature/29
+: 1433590330:0;gs
+: 1433590352:0;vim config/routes.rb
+: 1433590388:0;gs
+: 1433590396:0;rm Gemfile.lock
+: 1433590400:0;bundle install
+: 1433590404:0;gs
+: 1433590414:0;rm db/schema.rb
+: 1433590425:0;rake db:drop
+: 1433590432:0;rake db:migrate
+: 1433590440:0;rake db:create
+: 1433590444:0;rake db:migrate
+: 1433590452:0;rake db:seed
+: 1433590462:0;gs
+: 1433590471:0;vim Gemfile.lock
+: 1433590504:0;gs
+: 1433590508:0;ga .
+: 1433590517:0;gc
+: 1433590523:0;git commit
+: 1433590528:0;gp
+: 1433591475:0;rake db:drop
+: 1433591484:0;git pull
+: 1433591496:0;rake db:migrate
+: 1433591508:0;rake db:create
+: 1433591517:0;rake db:migrate
+: 1433591533:0;rake db:seed
+: 1433591832:0;gs
+: 1433591834:0;gd
+: 1433591841:0;git commit
+: 1433591845:0;ga /
+: 1433591846:0;ga /.
+: 1433591848:0;ga .
+: 1433591850:0;git commit
+: 1433591883:0;git push
+: 1433591890:0;tig
+: 1433591968:0;gsd
+: 1433591970:0;gs
+: 1433591972:0;git add .
+: 1433591974:0;git commit
+: 1433592009:0;git push
+: 1433592227:0;bundle -v
+: 1433592239:0;gem update
+: 1433592321:0;brew update
+: 1433592327:0;npm update
+: 1433592344:0;npm -h
+: 1433592386:0;npm list
+: 1433592403:0;gs
+: 1433592410:0;gd
+: 1433592414:0;git add .
+: 1433592416:0;git commit
+: 1433592431:0;git push
+: 1433592446:0;bundle update
+: 1433592460:0;gs
+: 1433592463:0;git add .
+: 1433592465:0;git commit
+: 1433592473:0;git push
+: 1433592519:0;brew upgrade
+: 1433592702:0;gs
+: 1433592704:0;ll
+: 1433592733:0;/bin/rm dump.rdb
+: 1433592737:0;vim .gitignore
+: 1433592767:0;gs
+: 1433592772:0;git add .
+: 1433592774:0;git commit
+: 1433592807:0;git push
+: 1433593155:0;gs
+: 1433593157:0;gd
+: 1433593162:0;git add .
+: 1433593207:0;git commit
+: 1433593222:0;git push
+: 1433654969:0;rake routes
+: 1433658632:0;g
+: 1433658633:0;gs
+: 1433658638:0;gd
+: 1433658686:0;git add .
+: 1433658691:0;git commit
+: 1433658713:0;git push
+: 1433661350:0;gs
+: 1433661353:0;gd
+: 1433661358:0;git add .
+: 1433661764:0;cd ../../healthsystem
+: 1433661765:0;bundle exec rake db:create RAILS_ENV=test
+: 1433661780:0;bundle exec rake db:drop RAILS_ENV=test
+: 1433661786:0;bundle exec rake db:create RAILS_ENV=test
+: 1433661802:0;bundle exec rake db:migrate RAILS_ENV=test
+: 1433661815:0;bundle exec rake db:seed RAILS_ENV=test
+: 1433661826:0;bundle exec rake spec
+: 1433661833:0;bundle exec rake rspec
+: 1433661933:0;vim Gemfile
+: 1433662026:0;bundle insatll
+: 1433662030:0;bundle insatall
+: 1433662035:0;bundle install
+: 1433662073:0;bundle exec rake rspec
+: 1433662120:0;rake spec
+: 1433662128:0;rake espec
+: 1433662132:0;rake rspec
+: 1433662331:0;vim Gemfile
+: 1433662352:0;bundle install
+: 1433662377:0;rails g rspec:install
+: 1433662473:0;rake rspec
+: 1433662482:0;rspec
+: 1433662561:0;gs
+: 1433662568:0;git add .
+: 1433662572:0;git commit
+: 1433662611:0;git push
+: 1433665219:0;rake assets:precompile
+: 1433679412:0;cd
+: 1433679414:0;cd .ssh
+: 1433679420:0;ssh-keygen
+: 1433679437:0;ll
+: 1433679450:0;less sakura_mziyut.pub
+: 1433679454:0;less sakura_mziyut
+: 1433679460:0;less distributed_system_aws.pem
+: 1433679466:0;less sakura_mziyut.pub
+: 1433681696:0;gs
+: 1433681699:0;gd
+: 1433681713:0;git reset --hard HEAD
+: 1433681715:0;gs
+: 1433681720:0;rm public/assets
+: 1433681721:0;ll
+: 1433681722:0;gs
+: 1433681726:0;git fetch origin
+: 1433681739:0;git checkout -b feature/29 origin/feature/29
+: 1433681745:0;git checkout develop
+: 1433681766:0;git reset --hard HEAD
+: 1433681768:0;git checkout develop
+: 1433681776:0;gd
+: 1433681787:0;vim Gemfile.lock
+: 1433681800:0;gs
+: 1433681801:0;gd
+: 1433681822:0;git add .
+: 1433681825:0;git commit
+: 1433681848:0;git push
+: 1433681879:0;git merge --no-ff feature/29
+: 1433681887:0;git push origin develop
+: 1433681904:0;git pull
+: 1433681914:0;git checkout develop
+: 1433681924:0;git merge --no-ff feature/29
+: 1433681929:0;gs
+: 1433681941:0;vim Gemfile
+: 1433681947:0;git add .
+: 1433681949:0;git commit
+: 1433681969:0;git push
+: 1433681981:0;git pull
+: 1433682002:0;git push
+: 1433682012:0;git merge --no-ff feature/29
+: 1433682016:0;gs
+: 1433682020:0;vim app/models/menu.rb
+: 1433682063:0;gs
+: 1433682066:0;git add .
+: 1433682069:0;gs
+: 1433682072:0;git commit
+: 1433682077:0;git push
+: 1433682091:0;git push origin develop
+: 1433683394:0;git checkout 51ea94c1d2e39d7eeb727b952fee6551e45638e2
+: 1433683402:0;git log
+: 1433683500:0;git tag -a v0.0
+: 1433683522:0;git push
+: 1433683538:0;git push origin 51ea94c1d2e39d7eeb727b952fee6551e45638e2
+: 1433683566:0;git push --tags
+: 1433683640:0;git checkout feature/15
+: 1433683664:0;git reset --hard origin/master
+: 1433683715:0;git git fetch origin
+: 1433683718:0;git fetch origin
+: 1433683733:0;git reset --hard origin/master
+: 1433683767:0;git checkout develop
+: 1433683771:0;rm Gemfile
+: 1433683774:0;rm Gemfile.lock
+: 1433683781:0;git checkout origin/develop
+: 1433683790:0;gs
+: 1433683798:0;git checkout feature/15
+: 1433683835:0;brew update
+: 1433695384:0;brew upgrade
+: 1433697104:0;brew cask search soundflower
+: 1433697112:0;brew cask install soundflower
+: 1433730073:0;work
+: 1433730080:0;cd Rich/viceviza
+: 1433730084:0;cd km-viceviza.local
+: 1433730087:0;vagrant up
+: 1433730095:0;cd ../km-www.viceviza.com
+: 1433730096:0;ll
+: 1433730106:0;git fetch
+: 1433730121:0;vim .
+: 1433730279:0;gd
+: 1433730304:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433732418:0;brew cask install gitter
+: 1433732439:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433732874:0;git reset --soft
+: 1433732877:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433732962:0;ga common/lib/task/dailyArticlerssTask.class.php
+: 1433732964:0;gs
+: 1433732972:0;git commit
+: 1433733041:0;git push
+: 1433733672:0;git fetch && git checkout topic/KAMIMADO-2658
+: 1433733728:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433733763:0;vim .
+: 1433739464:0;mvim .
+: 1433741179:0;cd common
+: 1433741180:0;ll
+: 1433741195:0;vagrant ssh
+: 1433742490:0;vim chef/site-cookbooks/symfony/recipes/default.rb
+: 1433743151:0;vagrant ssh
+: 1433743156:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433743173:0;ga common/lib/task/dailyArticlerssTask.class.php
+: 1433743184:0;git commit
+: 1433743366:0;git push
+: 1433743663:0;gd common/lib/task/dailyArticlerssTask.class.php
+: 1433743670:0;ga common/lib/task/dailyArticlerssTask.class.php
+: 1433743674:0;git commit
+: 1433743739:0;git push
+: 1433746941:0;ll
+: 1433746948:0;ll *om
+: 1433747716:0;brew tap neovim/homebrew-neovim
+: 1433747731:0;brew install neovim
+: 1433747739:0;brew install --HEAD neovim/neovim/neovim
+: 1433748330:0;pip install neovim
+: 1433748356:0;pip install --upgrade pip
+: 1433748365:0;pip install neovim
+: 1433748369:0;pip uninstall neovim
+: 1433748374:0;pip install neovim
+: 1433748420:0;source ~/.zshrc
+: 1433748425:0;nvim
+: 1433749172:0;vim ~/.zsh/compensation.zsh
+: 1433749738:0;git fetch
+: 1433749747:0;cd ../
+: 1433749751:0;git checkout topic/KAMIMADO-2645
+: 1433749759:0;git pull
+: 1433750294:0;vim ~/.gitconfig
+: 1433750585:0;git config --global core.editor vim
+: 1433750620:0;git config --global core.pager "lv -c"
+: 1433750629:0;git config --global color.ui auto
+: 1433750646:0;git config --global alias.co "checkout"
+: 1433750647:0;git config --global alias.ci "commit"
+: 1433750656:0;git config --global alias.st "status"
+: 1433750716:0;git config --global core.autocrlf = input
+: 1433750835:0;vim ~/.gitconfig
+: 1433751193:0;ll ~/.
+: 1433751195:0;la ~/.
+: 1433751453:0;cd ~/
+: 1433751454:0;ll
+: 1433751456:0;la
+: 1433751463:0;cd .backup
+: 1433751464:0;ll
+: 1433751472:0;gs
+: 1433751483:0;git add .
+: 1433751484:0;gs
+: 1433751503:0;cp dash/snippets.dash dash/20150608.dash
+: 1433751505:0;gs
+: 1433751507:0;git add .
+: 1433751517:0;git commit -m 20150608
+: 1433751519:0;git push
+: 1433751528:0;ll
+: 1433751534:0;la ~
+: 1433751554:0;ll
+: 1433751558:0;mkdir git
+: 1433751565:0;cp ~/.gitconfig git
+: 1433751568:0;cp ~/.gitignore git
+: 1433751569:0;ll
+: 1433751571:0;tree
+: 1433751578:0;tree -a
+: 1433751610:0;ll
+: 1433751612:0;gs
+: 1433751620:0;la ~
+: 1433751635:0;ll ~/.thefuck
+: 1433751643:0;less ~/.thefuck/settings.py
+: 1433751646:0;less ~/.thefuck/settings.pyc
+: 1433751667:0;vagrant
+: 1433751681:0;mkdir vagrant
+: 1433751687:0;vagrant box list
+: 1433751706:0;vagrant box list > vagrant/box-list-20150608.txt
+: 1433751726:0;vagrant plugin list > vagrant/plugin-list-20150608.txt
+: 1433751731:0;vagrant plugin list
+: 1433751760:0;ll
+: 1433751765:0;la ~
+: 1433751778:0;ll
+: 1433751786:0;mkdir composer
+: 1433751798:0;cp ~/.composer/config.json composer
+: 1433751805:0;less composer/config.json
+: 1433751814:0;cp ~/.composer/composer.json composer
+: 1433751817:0;less composer/composer.json
+: 1433752148:0;gs
+: 1433752152:0;git add .
+: 1433752166:0;git commit -m 20150608
+: 1433752169:0;git push
+: 1433752176:0;vim .git/config
+: 1433752388:0;vim ~/.gitconfig
+: 1433752438:0;ll
+: 1433752440:0;gs
+: 1433752457:0;vim ~/.gitconfig
+: 1433752493:0;gs
+: 1433752498:0;git delete-merged-branches
+: 1433752526:0;git branch
+: 1433752528:0;git branch -a
+: 1433752611:0;git pull
+: 1433755257:0;gs
+: 1433755392:0;gd common/lib/model/om/BaseBijinTokeiPeer.php common/lib/model/om/BaseBijinTokei.php
+: 1433755404:0;git diff common/lib/model/om/BaseBijinTokeiPeer.php common/lib/model/om/BaseBijinTokei.php
+: 1433755412:0;brew install lv
+: 1433755428:0;git diff common/lib/model/om/BaseBijinTokeiPeer.php common/lib/model/om/BaseBijinTokei.php
+: 1433755573:0;git diff common/lib/model/om/BaseBijinTokeiPeer.php common/lib/model/om/BaseBijinTokei.php common/lib/model/BijinTokeiPeer.php common/lib/model/BijinTokei.php salon/apps/salon/modules/bijin_tokei/actions/actions.class.php salon/apps/salon/modules/bijin_tokei/templates/indexSuccess.php
+: 1433755599:0;git add common/lib/model/om/BaseBijinTokeiPeer.php common/lib/model/om/BaseBijinTokei.php common/lib/model/BijinTokeiPeer.php common/lib/model/BijinTokei.php salon/apps/salon/modules/bijin_tokei/actions/actions.class.php salon/apps/salon/modules/bijin_tokei/templates/indexSuccess.php
+: 1433755607:0;git commit
+: 1433755657:0;git push
+: 1433755940:0;gl
+: 1433756027:0;git config user.email "yuta-mizui@rich.co.jp"
+: 1433756036:0;ll
+: 1433756040:0;vim .git/config
+: 1433756077:0;git config user.email "yuta-mizui@rich.co.jp"
+: 1433762869:0;less common/config/databases.yml
+: 1433764343:0;git pull
+: 1433764438:0;gs
+: 1433764453:0;vim salon/apps/salon/modules/bijin_tokei/templates/indexSuccess.php
+: 1433764464:0;git reset --hard HEAD
+: 1433764470:0;git pull
+: 1433764505:0;vagrant ssh
+: 1433764695:0;vagrant reload
+: 1433764815:0;git pull
+: 1433764854:0;vagrant ssh
+: 1433765214:0;vagrant hal5
+: 1433765218:0;vagrant halt
+: 1433765247:0;vagrant up
+: 1433765344:0;gl
+: 1433765355:0;git pull ef7f33e5ad77c429a07b4a2056ceae3cb90a8429
+: 1433765363:0;git reset --hard ef7f33e5ad77c429a07b4a2056ceae3cb90a8429
+: 1433765378:0;vagrant halt
+: 1433765383:0;vagrant ssh
+: 1433766053:0;vim kamimado
+: 1433766370:0;git reset --hard HEAD
+: 1433766377:0;git clean -xdf
+: 1433766382:0;git checkout master
+: 1433766397:0;vagrant halt
+: 1433767432:0;vagrant
+: 1433767682:0;/bin/rm .vagrant/machines/default/virtualbox/synced_folders
+: 1433767690:0;vagrant up --provision
+: 1433771741:0;git checkout topic/KAMIMADO-2645
+: 1433771777:0;git checkout origin/topic/KAMIMADO-2645
+: 1433771808:0;gd
+: 1433771846:0;git fetch
+: 1433771868:0;git checkout topic/KAMIMADO-2645
+: 1433771897:0;git reset --hard origin/master
+: 1433771911:0;git checkout origin/topic/KAMIMADO-2645
+: 1433771919:0;gd
+: 1433771935:0;git reset --hard HEAD
+: 1433771940:0;git clean -xdf
+: 1433771943:0;git log
+: 1433771959:0;vagrant ssh
+: 1433772024:0;vagrant provision
+: 1433774004:0;vagrant ssh
+: 1433774017:0;git checkout topic/KAMIMADO-2645
+: 1433774317:0;git pull
+: 1433788421:0;ll
+: 1433788428:0;gs
+: 1433788554:0;mkdir bin
+: 1433788562:0;touch bin/backup
+: 1433788571:0;touch bin/setup
+: 1433788578:0;cd bin
+: 1433788578:0;ll
+: 1433788598:0;vim backup
+: 1433788789:0;echo $HOME
+: 1433788957:0;chmod +x *
+: 1433788958:0;ll
+: 1433788967:0;./backup
+: 1433789016:0;whereis brew
+: 1433789187:0;./backup
+: 1433789370:0;gs
+: 1433789511:0;cd
+: 1433789526:0;mv .backup .utility
+: 1433789527:0;ll
+: 1433789530:0;cd .utility
+: 1433789530:0;ll
+: 1433789559:0;mkdir backup
+: 1433789563:0;mv AU_Lab backup
+: 1433789569:0;mv brew backup
+: 1433789574:0;mv brew.cask backup
+: 1433789575:0;ll
+: 1433789585:0;mv composer backup
+: 1433789591:0;mv dash backup
+: 1433789790:0;ll
+: 1433789798:0;mv gem backup
+: 1433789803:0;mv git backup
+: 1433789816:0;ll
+: 1433789826:0;ll backup
+: 1433789838:0;mv backup/composer .
+: 1433789845:0;mv backup/dash
+: 1433789848:0;mv backup/dash .
+: 1433789854:0;ll
+: 1433789891:0;mv vagrant backup
+: 1433789892:0;ll
+: 1433789898:0;mv twterm backup
+: 1433789899:0;ll
+: 1433789905:0;mv npm backup
+: 1433789905:0;ll
+: 1433789921:0;mkdir update
+: 1433789931:0;ll
+: 1433789946:0;mkdir configs
+: 1433789947:0;ll
+: 1433789952:0;mv composer configs
+: 1433789954:0;ll
+: 1433789959:0;mv dash configs
+: 1433789960:0;ll
+: 1433789988:0;ll bin
+: 1433790001:0;cp bin/setup bin/update
+: 1433790053:0;ll bin
+: 1433790056:0;gs
+: 1433790069:0;mv configs config
+: 1433790071:0;ll
+: 1433790073:0;cd config
+: 1433790073:0;ll
+: 1433790075:0;cd dash
+: 1433790076:0;ll
+: 1433790078:0;pwd
+: 1433790119:0;gs
+: 1433790125:0;ll
+: 1433790127:0;cd ../
+: 1433790128:0;ll
+: 1433790131:0;cd ../bin
+: 1433790131:0;ll
+: 1433790136:0;tree backup
+: 1433790141:0;tree ../backup
+: 1433790179:0;gem list
+: 1433790216:0;./backup
+: 1433790243:0;ll
+: 1433790245:0;ll ..
+: 1433790250:0;ll backup
+: 1433790255:0;ll ../backup
+: 1433790272:0;./backup
+: 1433790283:0;brew list tap
+: 1433790289:0;brew tap list
+: 1433790291:0;brew tap
+: 1433790317:0;./backup
+: 1433790368:0;tree ../backup
+: 1433790559:0;./backup
+: 1433790563:0;tree ../backup
+: 1433790888:0;npm list
+: 1433790895:0;npm
+: 1433790912:0;npm -l
+: 1433790957:0;npm ls -g
+: 1433790962:0;npm ll -g
+: 1433790990:0;npm la -g
+: 1433791148:0;tree ../backup
+: 1433791236:0;./backup
+: 1433791263:0;ll
+: 1433791268:0;./backup
+: 1433791276:0;tree ../backup
+: 1433791284:0;ll ../backup
+: 1433791293:0;./backup
+: 1433791578:0;tree ../backup
+: 1433791597:0;./backup
+: 1433791608:0;tree ../backup
+: 1433791649:0;/bin/rm ../backup/brew ../backup/brew.cask ../backup/gem ../backup/twterm ../backup/vagrant
+: 1433791656:0;/bin/rm -rf ../backup/brew ../backup/brew.cask ../backup/gem ../backup/twterm ../backup/vagrant
+: 1433791659:0;tree ../backup
+: 1433791697:0;/bin/rm -rf ../backup/git ../backup/npm ../backup/20150609040919 ../backup/20150609042558
+: 1433791700:0;tree ../backup
+: 1433791707:0;cd ../
+: 1433791707:0;ll
+: 1433791710:0;gs
+: 1433791713:0;git add .
+: 1433791717:0;gs
+: 1433791756:0;git commit -m "20150609"
+: 1433791759:0;git push
+: 1433791765:0;gs
+: 1433792109:0;composer global update
+: 1433792215:0;composer self-update
+: 1433792247:0;npm update
+: 1433792254:0;npm
+: 1433792286:0;npm install -g jshint
+: 1433792329:0;npm update -g
+: 1433792419:0;npm cache clean -g
+: 1433792425:0;npm update -g
+: 1433792539:0;pip install --upgrade pip
+: 1433792567:0;pod
+: 1433792574:0;pod update
+: 1433792580:0;npm update cocoapods
+: 1433792583:0;pod update
+: 1433792654:0;bundle update
+: 1433792660:0;ll
+: 1433792700:0;gem update cocoapods
+: 1433792708:0;gem update cocoapods --pre
+: 1433792737:0;./bin/update
+: 1433799704:0;where vagrant
+: 1433799723:0;whereis vagrant
+: 1433800082:0;anyenv
+: 1433800089:0;anyenv versions
+: 1433800105:0;rbenv version
+: 1433800107:0;rbenv versions
+: 1433800172:0;rbenv global 2.2.1
+: 1433800177:0;work
+: 1433800185:0;cd CirKit/healthsystem
+: 1433800186:0;ll
+: 1433800192:0;rbenv local 2.2.2
+: 1433800193:0;ll
+: 1433800195:0;gs
+: 1433800203:0;vim ~/.gitignore
+: 1433800225:0;gs
+: 1433800235:0;pod update
+: 1433800241:0;pod
+: 1433800366:0;gem update
+: 1433800633:0;gem update --system
+: 1433800668:0;sudo gem update --system
+: 1433800688:0;gem update --system
+: 1433801079:0;composer global require ngyuki/composer-curl-plugin:dev-master
+: 1433801293:0;where vagrant
+: 1433802214:0;gs
+: 1433802219:0;git add .
+: 1433802221:0;git commit
+: 1433802230:0;git push
+: 1433802236:0;cd
+: 1433802236:0;ll
+: 1433802239:0;cd .ssh
+: 1433802239:0;ll
+: 1433802242:0;gs
+: 1433802249:0;git add .
+: 1433802251:0;git commit
+: 1433802268:0;git push
+: 1433802274:0;cd
+: 1433802274:0;ll
+: 1433802275:0;la
+: 1433802308:0;cd .vim
+: 1433802308:0;ll
+: 1433802310:0;gs
+: 1433802313:0;gd
+: 1433802321:0;git add .
+: 1433802322:0;git commit
+: 1433802335:0;git push
+: 1433802340:0;cd ../
+: 1433802341:0;ll
+: 1433802344:0;cd .zsh
+: 1433802344:0;ll
+: 1433802346:0;gs
+: 1433802347:0;gd
+: 1433802378:0;cp history/.zsh_history history/.zsh_history_20150609
