@@ -7,4 +7,7 @@
 alias opengl="gcc -framework GLUT -framework OpenGL"
 
 # Home brew
-umask 0002 # group write permition
+export HOMEBREW_BREWFILE=/usr/local/Library/mziyut_brewfile/.brewfile
+
+# brew install android-sdk
+export ANDROID_HOME=/usr/local/opt/android-sdk

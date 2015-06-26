@@ -19,7 +19,7 @@ alias gp="git push"
 ##
 # gomi
 # https://github.com/b4b4r07/gomi
-alias rm="gomi"
+# alias rm="gomi"
 
 ##
 # thefuck
