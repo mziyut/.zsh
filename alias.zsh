@@ -16,10 +16,15 @@ alias gc="git commit -m"
 alias ga="git add"
 alias gp="git push"
 
+# tmux
+alias t="tmux"
+alias tl="tmux list-sessions"
+alias ta="tmux attach -t"
+alias td="tmux detach"
+
 ##
 # gomi
-# https://github.com/b4b4r07/gomi
-# alias rm="gomi"
+alias rm="gomi"
 
 ##
 # thefuck
