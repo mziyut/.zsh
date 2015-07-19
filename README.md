@@ -7,11 +7,7 @@ zsh config file
 ## Installation
 #### Download
 
-<<<<<<< HEAD
 	git clone https://github.com/mziyut/.zsh.git
-=======
-	git clone https://github.com/yutam7/.zsh.git
->>>>>>> e70b4da90b1db96ea70017cd621a8eaef175b592
 	
 #### Setting
 	cd .zsh/
