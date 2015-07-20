@@ -3,11 +3,7 @@
 #                      Modified : 2014/07/23
 ################################################
 
-<<<<<<< HEAD
 HISTFILE=~/.zsh_history
-=======
-HISTFILE=~/.zsh/history/.zsh_history
->>>>>>> e70b4da90b1db96ea70017cd621a8eaef175b592
 HISTSIZE=10000
 SAVEHIST=10000
 HISTTIMEFORMAT="[%Y/%M/%D %H:%M:%S] "
