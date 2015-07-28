@@ -32,4 +32,4 @@ alias rm="gomi"
 alias fuck='eval $(thefuck $(fc -ln -1))'
 alias FUCK='fuck'
 
-alias work="cd /Users/yuta/Workspace"
+alias work="cd ~/Workspace"
