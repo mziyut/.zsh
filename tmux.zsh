@@ -1,1 +1,1 @@
-[[ -s /Users/yuta/.tmuxinator/scripts/tmuxinator ]] && source /Users/yuta/.tmuxinator/scripts/tmuxinator
+[[ -s ~/.tmuxinator/scripts/tmuxinator ]] && source ~/.tmuxinator/scripts/tmuxinator
