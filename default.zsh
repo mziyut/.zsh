@@ -1,3 +1,3 @@
-# include zshrc file 
+# include zshrc file
 source ~/.zsh/.zshrc
 
