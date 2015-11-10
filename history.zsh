@@ -1,5 +1,5 @@
 ################################################
-#    zshrc History 
+#    zshrc History
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000

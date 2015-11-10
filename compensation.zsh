@@ -6,6 +6,11 @@
 autoload -U compinit
 compinit -u
 
+# brew install zsh-completions
+if [ -e /usr/local/share/zsh-completions ]; then
+  fpath=(/usr/local/share/zsh-completions $fpath)
+fi
+
 setopt auto_list
 setopt auto_menu
 setopt list_packed
