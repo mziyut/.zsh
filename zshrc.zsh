@@ -22,4 +22,7 @@ case "${OSTYPE}" in
   darwin*)
     [ -f ~/.zsh/mac.zsh ] && source ~/.zsh/mac.zsh
   ;;
+  linux*)
+    [ -f ~/.zsh/linux.zsh ] && source ~/.zsh/linux.zsh
+  ;;
 esac
