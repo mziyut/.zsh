@@ -9,7 +9,7 @@ alias g="git"
 alias gs="git status"
 alias gl="git log"
 alias gd="git diff"
-alias gc="git commit -m"
+alias gc="git commit"
 alias ga="git add ."
 alias gp="git push"
 
