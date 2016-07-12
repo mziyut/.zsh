@@ -1,6 +1,9 @@
 # Personal zshrc Setting
 .zshrc.personal
 /hisoty/
+.zshrc.default
+personal.zsh
+
 #################################################
 
 # Mac OS X
