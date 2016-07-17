@@ -13,6 +13,8 @@ fi
 
 # brew install zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 # docker
 export DOCKER_TLS_VERIFY=1
