@@ -1,5 +1,9 @@
 # zsh mac
 
+# path
+export PATH="/usr/local/sbin:$PATH"
+
+
 # OpenGL Mac OS X (gcc)
 alias opengl="gcc -framework GLUT -framework OpenGL"
 

@@ -1,1 +1,1 @@
-[[ -s ~/.tmuxinator/scripts/tmuxinator ]] && source ~/.tmuxinator/scripts/tmuxinator
+[[ -s ~/.tmuxinator/scripts/tmuxinator.zsh ]] && source ~/.tmuxinator/scripts/tmuxinator.zsh

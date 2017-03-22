@@ -5,14 +5,6 @@ alias vi="vim"
 alias ll="ls -lG"
 alias la="ls -la"
 
-alias g="git"
-alias gs="git status"
-alias gl="git log"
-alias gd="git diff"
-alias gc="git commit"
-alias ga="git add ."
-alias gp="git push"
-
 # tmux
 alias t="tmux"
 alias tl="tmux list-sessions"
@@ -30,3 +22,6 @@ alias fuck='eval $(thefuck $(fc -ln -1))'
 alias FUCK='fuck'
 
 alias work="cd ~/Workspace"
+
+## git alias
+[ -f ~/.zsh/alias/git.zsh ] && source ~/.zsh/alias/git.zsh
