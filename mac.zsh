@@ -18,3 +18,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+## JAVA
+# adb path
+export PATH=$PATH:/Applications/sdk/platform-tools

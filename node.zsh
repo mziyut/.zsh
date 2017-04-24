@@ -1,2 +1,2 @@
 export NODENV_ROOT=/usr/local/var/nodenv
-eval "$(nodenv init -)"
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
