@@ -21,3 +21,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ## JAVA
 # adb path
 export PATH=$PATH:/Applications/sdk/platform-tools
+
+# brew path.
+export PATH="/usr/local/sbin:$PATH"
